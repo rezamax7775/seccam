@@ -1,0 +1,6 @@
+{
+  "name": "سامانه مدیریت و وب‌سایت بومیا حفاظت گستر",
+  "description": "پلتفرم جامع شرکتی و پنل مدیریت کامل تجهیزات نظارت تصویری، پروژه‌های صنعتی، استعلام‌ها و تنظیمات اختصاصی بومیا حفاظت گستر",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

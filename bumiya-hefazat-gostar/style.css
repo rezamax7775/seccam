@@ -1,0 +1,50 @@
+/*
+Theme Name: بومیا حفاظت گستر (Bumiya Hefazat Gostar)
+Theme URI: https://bumiya-hefazat.ir
+Author: تیم فنی بومیا حفاظت گستر
+Author URI: https://bumiya-hefazat.ir
+Description: قالب وردپرس کاملاً اختصاصی، حرفه‌ای، ریسپانسیو و راست‌چین (RTL) ویژه شرکت‌های سیستم‌های حفاظتی، دوربین مداربسته، تجهیزات نظارتی و پروژه‌های امنیتی. شامل مدیریت محصولات، پروژه‌ها، استعلام قیمت، سیستم درخواست مشاوره با پنل اختصاصی در پیشخوان و اتصال واتساپ.
+Version: 1.0.0
+Requires at least: 6.0
+Tested up to: 6.7
+Requires PHP: 7.4
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: bumiya-hefazat
+Domain Path: /languages
+Tags: security, cctv, surveillance, rtl-language-support, custom-post-types, customizer, responsive-layout, corporate
+*/
+
+/* 
+ * کلیه استایل‌های اصلی قالب در فایل assets/css/main.css قرار دارد.
+ * این فایل جهت معرفی قالب به هسته وردپرس و استایل‌های پایه‌ای استفاده می‌شود.
+ */
+
+:root {
+  --primary: #0f2b5c;
+  --primary-hover: #0a1e40;
+  --secondary: #0284c7;
+  --secondary-hover: #0369a1;
+  --accent: #f59e0b;
+  --dark: #091428;
+  --light: #f8fafc;
+  --card-bg: #ffffff;
+  --text-main: #1e293b;
+  --text-muted: #64748b;
+  --border-color: #e2e8f0;
+  --success: #10b981;
+  --danger: #ef4444;
+  --radius: 12px;
+  --font-family: 'Vazirmatn', 'Tahoma', system-ui, -apple-system, sans-serif;
+}
+
+body.rtl {
+  direction: rtl;
+  text-align: right;
+  font-family: var(--font-family);
+  background-color: #f8fafc;
+  color: var(--text-main);
+  margin: 0;
+  padding: 0;
+  line-height: 1.7;
+}
